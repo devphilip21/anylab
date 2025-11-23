@@ -1,5 +1,5 @@
-import { EventBus } from '@philip21/eventbus';
-import idom, { type IDom } from '@philip21/idom';
+import { EventBus } from '@anylab/eventbus';
+import idom, { type IDom } from '@anylab/idom';
 import { HandsSourceOption } from './HandsSourceOption';
 
 export abstract class HandsSource extends EventBus<{ input: HandsSource }> {

@@ -1,4 +1,4 @@
-import EventBus from '@philip21/eventbus';
+import EventBus from '@anylab/eventbus';
 import { HandsProxy } from '~/proxies/common/HandsProxy';
 import { PanEventManagerByTouch } from './PanEventManagerByTouch';
 import { PanEvent, PanEventType } from './PanEvent';

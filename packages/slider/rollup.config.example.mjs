@@ -1,5 +1,5 @@
 import { resolve } from 'path';
-import defineConfig from '@philip21/config/rollup/rollup.config.example.mjs';
+import defineConfig from '@anylab/config/rollup/rollup.config.example.mjs';
 
 export default defineConfig((cliArgs) => {
   const cwd = process.cwd();

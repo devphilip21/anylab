@@ -1,5 +1,5 @@
 {
-  "name": "@philip21/config",
+  "name": "@anylab/config",
   "version": "1.0.0",
   "private": true,
   "description": "configuration for monorepo",

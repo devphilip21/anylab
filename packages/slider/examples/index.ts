@@ -1,4 +1,4 @@
-import idom from '@philip21/idom';
+import idom from '@anylab/idom';
 import { Slider } from '../src';
 
 async function main() {
@@ -37,7 +37,7 @@ function initBasicExample() {
   height: 200px;
   vertical-align: top;
 }`);
-  idom('#code_basic ._code[data-target="js"]').text(`import Slider from '@philip21/slider';
+  idom('#code_basic ._code[data-target="js"]').text(`import Slider from '@anylab/slider';
 
 const slider = new Slider(
   document.getElementById('slider_basic'),

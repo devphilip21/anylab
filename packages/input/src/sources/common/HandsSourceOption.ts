@@ -1,4 +1,4 @@
-import { IDomCssValue } from '@philip21/idom';
+import { IDomCssValue } from '@anylab/idom';
 
 export interface HandsSourceOption {
   cssStyles?: Record<string, IDomCssValue>;

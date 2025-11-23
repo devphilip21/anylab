@@ -1,5 +1,5 @@
 {
-  "name": "@philip21/idom",
+  "name": "@anylab/idom",
   "version": "1.5.3",
   "description": "provides a concise and intuitive dom manipulation API",
   "main": "dist/index.esm.js",
@@ -18,23 +18,23 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/devphilip21/philip21.js.git",
+    "url": "https://github.com/devphilip21/anylab.git",
     "directory": "packages/idom"
   },
   "bugs": {
-    "url": "https://github.com/devphilip21/philip21.js/issues"
+    "url": "https://github.com/devphilip21/anylab/issues"
   },
-  "homepage": "https://github.com/devphilip21/philip21.js/tree/main/packages/idom#readme",
+  "homepage": "https://github.com/devphilip21/anylab/tree/main/packages/idom#readme",
   "scripts": {
     "dev": "example=index rollup -w -c rollup.config.dev.mjs",
     "build": "rollup -c rollup.config.prod.mjs && cp src/index.d.ts dist/index.d.ts",
     "prepublish": "npm run build"
   },
   "dependencies": {
-    "@philip21/eventbus": "1.1.5"
+    "@anylab/eventbus": "1.1.5"
   },
   "devDependencies": {
-    "@philip21/config": "1.0.0",
+    "@anylab/config": "1.0.0",
     "rollup": "^4.18.0"
   }
 }

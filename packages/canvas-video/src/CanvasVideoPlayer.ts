@@ -1,4 +1,4 @@
-import EventBus from '@philip21/eventbus';
+import EventBus from '@anylab/eventbus';
 import { CanvasVideoVideoOption } from './models';
 
 export class CanvasVideoPlayer extends EventBus<{

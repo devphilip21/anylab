@@ -1,4 +1,4 @@
-# `@philip21/slider`
+# `@anylab/slider`
 
 - slider module (like `swiper.js`)
 - use only css on animation (not using js computing resources)
@@ -7,7 +7,7 @@
 ## Installation
 
 ```sh
-npm install @philip21/slider --save
+npm install @anylab/slider --save
 ```
 
 ## Getting Started [(Demo)](https://devphilip21.github.io/philip21.js/packages/slider/examples/)
@@ -39,7 +39,7 @@ npm install @philip21/slider --save
 ```
 
 ```js
-import Slider from '@philip21/slider'
+import Slider from '@anylab/slider'
 
 const element = document.getElementById('slider');
 const slider = new Slider(element).on({

@@ -1,6 +1,6 @@
 export class SliderBindRequiredError extends Error {
   constructor() {
-    super('[@philip21/slider] element binding required!');
+    super('[@anylab/slider] element binding required!');
   }
 }
 
@@ -8,7 +8,7 @@ export const sliderBindRequiredError = new SliderBindRequiredError();
 
 export class SliderInvalidArgumentsError extends Error {
   constructor() {
-    super('[@philip21/slider] invalid arguments!');
+    super('[@anylab/slider] invalid arguments!');
   }
 }
 

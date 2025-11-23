@@ -15,6 +15,75 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@anylab/canvas-video@workspace:packages/canvas-video":
+  version: 0.0.0-use.local
+  resolution: "@anylab/canvas-video@workspace:packages/canvas-video"
+  dependencies:
+    "@anylab/config": "npm:1.0.0"
+    "@anylab/eventbus": "npm:1.1.5"
+    rollup: "npm:^4.18.0"
+  languageName: unknown
+  linkType: soft
+
+"@anylab/config@npm:1.0.0, @anylab/config@workspace:packages/config":
+  version: 0.0.0-use.local
+  resolution: "@anylab/config@workspace:packages/config"
+  dependencies:
+    "@rollup/plugin-commonjs": "npm:^25.0.7"
+    "@rollup/plugin-node-resolve": "npm:^15.2.3"
+    "@rollup/plugin-terser": "npm:^0.4.4"
+    "@types/jest": "npm:^29.5.11"
+    deepmerge: "npm:^4.3.1"
+    jest: "npm:^29.7.0"
+    rollup: "npm:^4.9.5"
+    rollup-plugin-livereload: "npm:^2.0.5"
+    rollup-plugin-serve: "npm:^1.1.1"
+    rollup-plugin-typescript2: "npm:^0.36.0"
+    ts-jest: "npm:^29.1.1"
+  languageName: unknown
+  linkType: soft
+
+"@anylab/eventbus@npm:1.1.5, @anylab/eventbus@workspace:packages/eventbus":
+  version: 0.0.0-use.local
+  resolution: "@anylab/eventbus@workspace:packages/eventbus"
+  dependencies:
+    "@anylab/config": "npm:1.0.0"
+    rollup: "npm:^4.18.0"
+  languageName: unknown
+  linkType: soft
+
+"@anylab/idom@npm:1.5.3, @anylab/idom@npm:^1.5.2, @anylab/idom@workspace:packages/idom":
+  version: 0.0.0-use.local
+  resolution: "@anylab/idom@workspace:packages/idom"
+  dependencies:
+    "@anylab/config": "npm:1.0.0"
+    "@anylab/eventbus": "npm:1.1.5"
+    rollup: "npm:^4.18.0"
+  languageName: unknown
+  linkType: soft
+
+"@anylab/input@npm:0.1.0, @anylab/input@workspace:packages/input":
+  version: 0.0.0-use.local
+  resolution: "@anylab/input@workspace:packages/input"
+  dependencies:
+    "@anylab/config": "npm:1.0.0"
+    "@anylab/eventbus": "npm:1.1.5"
+    "@anylab/idom": "npm:1.5.3"
+    rollup: "npm:^4.18.0"
+  languageName: unknown
+  linkType: soft
+
+"@anylab/slider@workspace:packages/slider":
+  version: 0.0.0-use.local
+  resolution: "@anylab/slider@workspace:packages/slider"
+  dependencies:
+    "@anylab/config": "npm:1.0.0"
+    "@anylab/idom": "npm:^1.5.2"
+    "@anylab/input": "npm:0.1.0"
+    rollup: "npm:^4.18.0"
+  languageName: unknown
+  linkType: soft
+
 "@babel/code-frame@npm:^7.0.0, @babel/code-frame@npm:^7.12.13, @babel/code-frame@npm:^7.23.5, @babel/code-frame@npm:^7.24.2":
   version: 7.24.2
   resolution: "@babel/code-frame@npm:7.24.2"
@@ -1081,75 +1150,6 @@ __metadata:
   checksum: 10c0/c37a5b4842bfdece3d14dfdb054f73fe15ed2d3da61b34ff76629fb5b1731647c49166fd2a8bf8b56fcfa51200382385ea8909a3cbecdad612310c114d3f6c99
   languageName: node
   linkType: hard
-
-"@philip21/canvas-video@workspace:packages/canvas-video":
-  version: 0.0.0-use.local
-  resolution: "@philip21/canvas-video@workspace:packages/canvas-video"
-  dependencies:
-    "@philip21/config": "npm:1.0.0"
-    "@philip21/eventbus": "npm:1.1.5"
-    rollup: "npm:^4.18.0"
-  languageName: unknown
-  linkType: soft
-
-"@philip21/config@npm:1.0.0, @philip21/config@workspace:packages/config":
-  version: 0.0.0-use.local
-  resolution: "@philip21/config@workspace:packages/config"
-  dependencies:
-    "@rollup/plugin-commonjs": "npm:^25.0.7"
-    "@rollup/plugin-node-resolve": "npm:^15.2.3"
-    "@rollup/plugin-terser": "npm:^0.4.4"
-    "@types/jest": "npm:^29.5.11"
-    deepmerge: "npm:^4.3.1"
-    jest: "npm:^29.7.0"
-    rollup: "npm:^4.9.5"
-    rollup-plugin-livereload: "npm:^2.0.5"
-    rollup-plugin-serve: "npm:^1.1.1"
-    rollup-plugin-typescript2: "npm:^0.36.0"
-    ts-jest: "npm:^29.1.1"
-  languageName: unknown
-  linkType: soft
-
-"@philip21/eventbus@npm:1.1.5, @philip21/eventbus@workspace:packages/eventbus":
-  version: 0.0.0-use.local
-  resolution: "@philip21/eventbus@workspace:packages/eventbus"
-  dependencies:
-    "@philip21/config": "npm:1.0.0"
-    rollup: "npm:^4.18.0"
-  languageName: unknown
-  linkType: soft
-
-"@philip21/idom@npm:1.5.3, @philip21/idom@npm:^1.5.2, @philip21/idom@workspace:packages/idom":
-  version: 0.0.0-use.local
-  resolution: "@philip21/idom@workspace:packages/idom"
-  dependencies:
-    "@philip21/config": "npm:1.0.0"
-    "@philip21/eventbus": "npm:1.1.5"
-    rollup: "npm:^4.18.0"
-  languageName: unknown
-  linkType: soft
-
-"@philip21/input@npm:0.1.0, @philip21/input@workspace:packages/input":
-  version: 0.0.0-use.local
-  resolution: "@philip21/input@workspace:packages/input"
-  dependencies:
-    "@philip21/config": "npm:1.0.0"
-    "@philip21/eventbus": "npm:1.1.5"
-    "@philip21/idom": "npm:1.5.3"
-    rollup: "npm:^4.18.0"
-  languageName: unknown
-  linkType: soft
-
-"@philip21/slider@workspace:packages/slider":
-  version: 0.0.0-use.local
-  resolution: "@philip21/slider@workspace:packages/slider"
-  dependencies:
-    "@philip21/config": "npm:1.0.0"
-    "@philip21/idom": "npm:^1.5.2"
-    "@philip21/input": "npm:0.1.0"
-    rollup: "npm:^4.18.0"
-  languageName: unknown
-  linkType: soft
 
 "@pkgjs/parseargs@npm:^0.11.0":
   version: 0.11.0

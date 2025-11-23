@@ -1,4 +1,4 @@
-import idom, { type IDom } from '@philip21/idom';
+import idom, { type IDom } from '@anylab/idom';
 import { SliderContext } from '~/models';
 
 export abstract class SliderPanel {

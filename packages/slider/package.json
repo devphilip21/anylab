@@ -1,5 +1,5 @@
 {
-  "name": "@philip21/slider",
+  "name": "@anylab/slider",
   "version": "0.1.0",
   "description": "low cost slider module",
   "main": "dist/index.js",
@@ -20,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/devphilip21/philip21.js.git",
+    "url": "https://github.com/devphilip21/anylab.git",
     "directory": "packages/slider"
   },
   "scripts": {
@@ -29,11 +29,11 @@
     "build:example": "example=index rollup -c rollup.config.example.mjs"
   },
   "dependencies": {
-    "@philip21/idom": "^1.5.2",
-    "@philip21/input": "0.1.0"
+    "@anylab/idom": "^1.5.2",
+    "@anylab/input": "0.1.0"
   },
   "devDependencies": {
-    "@philip21/config": "1.0.0",
+    "@anylab/config": "1.0.0",
     "rollup": "^4.18.0"
   }
 }

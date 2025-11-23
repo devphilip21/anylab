@@ -1,5 +1,5 @@
 {
-  "name": "@philip21/eventbus",
+  "name": "@anylab/eventbus",
   "version": "1.1.5",
   "description": "universal and light(1kb) event bus module",
   "main": "dist/index.esm.js",
@@ -18,21 +18,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/devphilip21/philip21.js.git",
+    "url": "https://github.com/devphilip21/anylab.git",
     "directory": "packages/eventbus"
   },
   "bugs": {
-    "url": "https://github.com/devphilip21/philip21.js/issues"
+    "url": "https://github.com/devphilip21/anylab/issues"
   },
-  "homepage": "https://github.com/devphilip21/philip21.js/tree/main/packages/eventbus#readme",
+  "homepage": "https://github.com/devphilip21/anylab/tree/main/packages/eventbus#readme",
   "scripts": {
     "dev": "example=index rollup -w -c rollup.config.dev.mjs",
     "build": "rollup -c rollup.config.prod.mjs",
-    "test": "jest --config jest.config.mjs",
-    "prepublish": "npm run test && npm run build"
+    "test": "jest --config jest.config.mjs"
   },
   "devDependencies": {
-    "@philip21/config": "1.0.0",
+    "@anylab/config": "1.0.0",
     "rollup": "^4.18.0"
   }
 }

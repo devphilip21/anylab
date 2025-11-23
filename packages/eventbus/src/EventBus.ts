@@ -25,7 +25,7 @@ export class EventBus<D extends object = any> {
     switch (typeof eventName) {
       case 'string': {
         if (!eventHandler) {
-          throw new Error('[@philip21/hands] argument eventHandler required!');
+          throw new Error('[@anylab/hands] argument eventHandler required!');
         }
 
         const name = eventName as keyof D;
@@ -40,7 +40,7 @@ export class EventBus<D extends object = any> {
       }
       case 'object': {
         if (!eventName) {
-          throw new Error('[@philip21/hands] argument eventSpecification required!');
+          throw new Error('[@anylab/hands] argument eventSpecification required!');
         }
 
         const spec = eventName as EventSpecification<D>;
@@ -64,7 +64,7 @@ export class EventBus<D extends object = any> {
     switch (typeof eventName) {
       case 'string': {
         if (!eventHandler) {
-          throw new Error('[@philip21/hands] argument eventHandler required!');
+          throw new Error('[@anylab/hands] argument eventHandler required!');
         }
 
         const name = eventName as keyof D;

@@ -1,5 +1,5 @@
-import { IDomRect } from '@philip21/idom';
-import { Pan, PanEvent, PanEventType, MouseSource, TouchSource } from '@philip21/input';
+import { IDomRect } from '@anylab/idom';
+import { Pan, PanEvent, PanEventType, MouseSource, TouchSource } from '@anylab/input';
 import { SliderCamera } from '~/camera';
 import { SliderInvalidArgumentsError } from '~/error';
 import { SliderDirection, type SliderAnimation, type SliderContext } from '~/models';

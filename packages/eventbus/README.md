@@ -1,4 +1,4 @@
-# `@philip21/eventbus`
+# `@anylab/eventbus`
 
 - universal and light(1kb) event bus module
 - no dependencies
@@ -9,13 +9,13 @@
 ## Installation
 
 ```sh
-npm install @philip21/eventbus --save
+npm install @anylab/eventbus --save
 ```
 
 ## Getting Started
 
 ```ts
-import EventBus from '@philip21/eventbus';
+import EventBus from '@anylab/eventbus';
 
 const eventBus = new EventBus();
 

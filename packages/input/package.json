@@ -1,5 +1,5 @@
 {
-  "name": "@philip21/input",
+  "name": "@anylab/input",
   "version": "0.1.0",
   "description": "recognizes mouse, pointer, and touch-based events and delivers refined data",
   "main": "dist/index.esm.js",
@@ -20,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/devphilip21/philip21.js.git",
+    "url": "https://github.com/devphilip21/anylab.git",
     "directory": "packages/input"
   },
   "scripts": {
@@ -29,11 +29,11 @@
     "prepublish": "npm run build"
   },
   "dependencies": {
-    "@philip21/eventbus": "1.1.5",
-    "@philip21/idom": "1.5.3"
+    "@anylab/eventbus": "1.1.5",
+    "@anylab/idom": "1.5.3"
   },
   "devDependencies": {
-    "@philip21/config": "1.0.0",
+    "@anylab/config": "1.0.0",
     "rollup": "^4.18.0"
   }
 }

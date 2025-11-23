@@ -1,4 +1,4 @@
-import idom from '@philip21/idom';
+import idom from '@anylab/idom';
 import { SliderCamera, SliderPlainCamera } from '~/camera';
 import { sliderBindRequiredError, sliderInvalidArgumentsError } from '~/error';
 import { SliderPanel, SliderPlainPanel } from '~/panel';

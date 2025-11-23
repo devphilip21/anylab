@@ -1,4 +1,4 @@
-import EventBus from '@philip21/eventbus';
+import EventBus from '@anylab/eventbus';
 
 /**
  * @typedef {import('./index').IDom}
@@ -26,5 +26,5 @@ IDom.prototype._initElements = function (elements) {
     }
   }
 
-  throw new Error('[@philip21/idom] invalid elements');
+  throw new Error('[@anylab/idom] invalid elements');
 };

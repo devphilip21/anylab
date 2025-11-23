@@ -1,4 +1,4 @@
-# `@philip21/idom`
+# `@anylab/idom`
 
 - provides a concise and intuitive dom manipulation API
 - like jquery, but only partial features
@@ -8,13 +8,13 @@
 ## Installation
 
 ```sh
-npm install @philip21/idom --save
+npm install @anylab/idom --save
 ```
 
 ## Getting Started
 
 ```js
-import idom from '@philip21/idom';
+import idom from '@anylab/idom';
 
 const popupDom = idom(document.getElementById('id')); // or idom('#id')
 

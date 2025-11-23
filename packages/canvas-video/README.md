@@ -1,4 +1,4 @@
-# `@philip21/canvas-video`
+# `@anylab/canvas-video`
 
 - snapshots of the canvas can be exported as video to fit the frame
 
@@ -7,7 +7,7 @@
 ## Getting Started
 
 ```js
-import CanvasVideo from '@philip21/canvas-video';
+import CanvasVideo from '@anylab/canvas-video';
 
 const TEN_MINUTES = 1000 * 60 * 10;
 const canvasWidth = 300;

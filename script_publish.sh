@@ -1,6 +1,8 @@
 #!/bin/sh
 
 PKG=$1
-FULL_PKG="@philip21/${PKG}"
+FULL_PKG="@anylab/${PKG}"
 
-yarn workspace $FULL_PKG publish --access=public
+cd packages/$PKG
+yarn workspace $FULL_PKG build
+yarn npm publish --access=public
