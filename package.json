@@ -1,11 +1,8 @@
 {
   "private": true,
-  "workspaces": [
-    "packages/*"
-  ],
   "scripts": {
     "lint-staged": "lint-staged",
-    "prepare": "husky install"
+    "prepare": "husky"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.7.1",
@@ -16,10 +13,10 @@
     "eslint": "^8.48.0",
     "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-prettier": "^5.0.0",
-    "husky": "^8.0.3",
+    "husky": "^9.1.7",
     "lint-staged": "^14.0.1",
+    "nx": "22.2.3",
     "prettier": "^3.0.3",
     "typescript": "^5.2.2"
-  },
-  "packageManager": "yarn@4.2.2"
+  }
 }

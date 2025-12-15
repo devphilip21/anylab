@@ -2,8 +2,8 @@
   "name": "@anylab/slider",
   "version": "0.1.0",
   "description": "low cost slider module",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "dist/index.esm.js",
+  "types": "dist/src/index.d.ts",
   "type": "module",
   "license": "MIT",
   "keywords": [
@@ -24,16 +24,14 @@
     "directory": "packages/slider"
   },
   "scripts": {
-    "dev": "example=index rollup -w -c rollup.config.dev.mjs",
-    "build": "rollup -c rollup.config.prod.mjs",
-    "build:example": "example=index rollup -c rollup.config.example.mjs"
+    "dev": "builder dev",
+    "build": "builder build"
   },
   "dependencies": {
     "@anylab/idom": "^1.5.2",
     "@anylab/input": "0.1.0"
   },
   "devDependencies": {
-    "@anylab/config": "1.0.0",
-    "rollup": "^4.18.0"
+    "@anylab/builder": "workspace:*"
   }
 }

@@ -2,8 +2,8 @@
   "version": "0.1.0",
   "name": "@anylab/canvas-video",
   "description": "render video using canvas",
-  "main": "index.js",
-  "types": "index.d.ts",
+  "main": "dist/index.esm.js",
+  "types": "dist/src/index.d.ts",
   "type": "module",
   "license": "MIT",
   "author": {
@@ -11,9 +11,8 @@
     "email": "philip21.dev@gmail.com"
   },
   "scripts": {
-    "dev": "example=index rollup -w -c rollup.config.dev.mjs",
-    "build": "rollup -c rollup.config.prod.mjs",
-    "build:example": "example=index rollup -c rollup.config.example.mjs"
+    "dev": "builder dev",
+    "build": "builder build"
   },
   "repository": {
     "type": "git",
@@ -21,8 +20,7 @@
     "directory": "packages/canvas-video"
   },
   "devDependencies": {
-    "@anylab/config": "1.0.0",
-    "rollup": "^4.18.0"
+    "@anylab/builder": "workspace:*"
   },
   "dependencies": {
     "@anylab/eventbus": "1.1.5"

@@ -30,3 +30,8 @@ tsconfig.tsbuildinfo
 
 # Build files
 dist
+
+
+
+.nx/cache
+.nx/workspace-data

@@ -25,5 +25,5 @@
     }
   },
   "include": ["./src/**/*.ts", "./examples/**/*.ts"],
-  "exclude": ["node_modules", "dist", "rollup.config.dev.mjs"]
+  "exclude": ["node_modules", "dist"]
 }

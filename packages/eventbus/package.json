@@ -26,12 +26,11 @@
   },
   "homepage": "https://github.com/devphilip21/anylab/tree/main/packages/eventbus#readme",
   "scripts": {
-    "dev": "example=index rollup -w -c rollup.config.dev.mjs",
-    "build": "rollup -c rollup.config.prod.mjs",
+    "dev": "builder dev",
+    "build": "builder build",
     "test": "jest --config jest.config.mjs"
   },
   "devDependencies": {
-    "@anylab/config": "1.0.0",
-    "rollup": "^4.18.0"
+    "@anylab/builder": "workspace:*"
   }
 }
